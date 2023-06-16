@@ -1,28 +1,40 @@
-.fakeimg {
-    height: 200px;
-    background: #aaa;
-  }
-  body{
+body{
     background-color: #09144F;
     font-family: "Lato", sans-serif;
     overflow-x: hidden;
   }
+#preloader{
+background: #09144F url(./favicon.PNG) no-repeat center center;
+height: 100vh;
+width: 100%;
+position: fixed;
+z-index: 100;
+}
+
+.fakeimg {
+    height: 200px;
+    background: #aaa;
+  }
+  
   h2,p,h2,h3,h5{
     color: white;
   }
-  .logo{
-    background-color: #09144F;
-  }
+  
   .serbtn{
    margin-left: 40px;
    margin-bottom: 10px;
  }
 
+.logo{
+    height: 150px;
+     width: 300px;
+}
 
+hr.solid {
+    border-top: 3px solid #f8f8f5ef;
+    
+  }
 
-
-
- 
  /* Side Nav */
 
  
@@ -65,6 +77,21 @@
     .sidenav a {font-size: 18px;}
   }
 
+
+
+
+
+
+  
+/* RightSide List  */
+
+.rightsidenav{
+    color: white;
+    background-color: #09144F;
+}
+
+
+
  .fa {
   padding: 20px;
   color: white;
@@ -74,3 +101,24 @@
   
 }
 
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgb(175, 20, 20); 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #7a1f04; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #b30000; 
+  }
