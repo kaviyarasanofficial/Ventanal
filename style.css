@@ -11,18 +11,8 @@ position: fixed;
 z-index: 100;
 }
 
-.fakeimg {
-    height: 200px;
-    background: #aaa;
-  }
-  
   h2,p,h2,h3,h5,td{
     color: white;
-  }
-
-  .bimg{
-    width: 200px;
-    height: 220px;
   }
 
   .Bookdetails {
