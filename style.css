@@ -48,6 +48,16 @@ hr.solid {
     
   }
 
+/* Navbar */
+.navbar-nav li{
+  color: white;
+  text-align: center;
+  align-items: center;
+}
+
+
+
+
  /* Side Nav */
 
  
